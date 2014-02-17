@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/koen/projects/duckduckgo/gradle/duckDuckGo/src/main/res/values-sw720dp/bools.xml -->
+    <eat-comment />
+
+    <bool name="welcomeScreen_allowLandscape">true</bool>
+
+</resources>

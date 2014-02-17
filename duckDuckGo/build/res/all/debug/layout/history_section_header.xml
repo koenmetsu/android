@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView 
+        style="@style/LeftTitleText" /><!-- From: file:/home/koen/projects/duckduckgo/gradle/duckDuckGo/src/main/res/layout/history_section_header.xml -->

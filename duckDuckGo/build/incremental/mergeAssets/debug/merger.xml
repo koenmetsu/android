@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="GradleOnionKitUnspecified.aar" >
+        <source path="/home/koen/projects/duckduckgo/gradle/duckDuckGo/build/exploded-bundles/GradleOnionKitUnspecified.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/koen/projects/duckduckgo/gradle/duckDuckGo/src/main/assets" >
+            <file
+                name="fonts/Roboto_Medium.ttf"
+                path="/home/koen/projects/duckduckgo/gradle/duckDuckGo/src/main/assets/fonts/Roboto_Medium.ttf" />
+            <file
+                name="fonts/Roboto_Bold.ttf"
+                path="/home/koen/projects/duckduckgo/gradle/duckDuckGo/src/main/assets/fonts/Roboto_Bold.ttf" />
+            <file
+                name="fonts/HelveticaNeue_Medium.ttf"
+                path="/home/koen/projects/duckduckgo/gradle/duckDuckGo/src/main/assets/fonts/HelveticaNeue_Medium.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/koen/projects/duckduckgo/gradle/duckDuckGo/src/debug/assets" />
+    </dataSet>
+
+</merger>

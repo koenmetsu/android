@@ -1,0 +1,25 @@
+apply plugin: 'android-library'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "19.0.1"
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 17
+
+        testPackageName "info.guardianproject.onionkit.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    release {
+        runProguard false
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:+'
+    compile files('libs/sc-light-jdk15on-1.47.0.2.jar')
+    compile files('libs/httpclientandroidlib-1.1.2.jar')
+}
