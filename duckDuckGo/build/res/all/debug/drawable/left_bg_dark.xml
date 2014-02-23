@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-    <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
-        android:src="@drawable/bg_med_noise"
-        android:tileMode="repeat" /><!-- From: file:/home/koen/projects/duckduckgo/gradle/duckDuckGo/src/main/res/drawable/left_bg_dark.xml -->
