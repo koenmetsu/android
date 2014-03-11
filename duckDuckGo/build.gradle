@@ -1,7 +1,7 @@
 apply plugin: 'android'
 
 android {
-    compileSdkVersion 16
+    compileSdkVersion 19
     buildToolsVersion "19.0.1"
 
     defaultConfig {
@@ -20,11 +20,18 @@ android {
     }
 }
 
+repositories {
+    flatDir {
+        dirs 'aars'
+    }
+}
+
 dependencies {
-    compile project(':onionKit')
+    //compile project(':onionKit')
     compile 'com.android.support:support-v4:+'
     compile files('libs/httpclientandroidlib-1.1.2.jar')
     compile files('libs/picasso-1.1.1.jar')
     compile files('libs/acra-4.4.0.jar')
     compile files('libs/otto-1.3.4.jar')
+    compile 'info.guardianproject.onionkit:libonionkit:1.0@aar'
 }

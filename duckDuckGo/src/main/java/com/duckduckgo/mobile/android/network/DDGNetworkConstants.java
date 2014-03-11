@@ -38,8 +38,8 @@ public class DDGNetworkConstants {
         mainConnManager = new ThreadSafeClientConnManager();
         mainClient = new DDGHttpClient(application.getApplicationContext(), mainConnManager, httpParams);
         if(enableTor){
-            mainClient.getStrongTrustManager().setNotifyVerificationFail(true);
-            mainClient.getStrongTrustManager().setNotifyVerificationSuccess(true);
+            //mainClient.getStrongTrustManager().setNotifyVerificationFail(true);
+            //mainClient.getStrongTrustManager().setNotifyVerificationSuccess(true);
             mainClient.useProxy(true, ConnRoutePNames.DEFAULT_PROXY, PROXY_HOST, PROXY_HTTP_PORT);
         }
     }
